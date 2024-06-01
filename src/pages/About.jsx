@@ -4,7 +4,7 @@ const About = () => {
     <div className="mt-20 h-screen">
       <div className="w-[100%] grid grid-cols-2">
         <div className="">
-          <div className="">Image of about</div>
+          <div className="">Image of about file</div>
         </div>
         <div className="">Text</div>
       </div>
