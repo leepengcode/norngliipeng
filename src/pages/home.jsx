@@ -6,11 +6,10 @@ import {
   FaTelegramPlane,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FiGitlab } from "react-icons/fi";
-import { Cursor, useTypewriter } from "react-simple-typewriter";
-import ReactiveButton from "reactive-button";
-import profile from "../assets/1.jpg";
-
+import Zoom from "react-reveal/Bounce";
+import Flash from "react-reveal/Flash";
+import LightSpeed from "react-reveal/LightSpeed";
+import Reveal from "react-reveal/Swing";
 
 const home = () => {
   const [text] = useTypewriter({

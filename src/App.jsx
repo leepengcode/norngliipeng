@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
+import Headroom from "react-headroom";
 import ScrollToTop from "./components/ScrollToTop";
-import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Home from "./pages/home";
-import Skill from "./pages/Skill";
-import Headroom from "react-headroom";
+import Portfolio from "./pages/Portfolio";
 import Service from "./pages/Service";
+import Skill from "./pages/Skill";
+import Home from "./pages/home";
 
 function App() {
   const home = useRef(null);
